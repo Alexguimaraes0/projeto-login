@@ -50,6 +50,14 @@ body {
     margin-bottom: 20px;
 }
 
+#imagem {
+    display: block;
+    background: #6C1AFF url(../imagens/undraw_secure-login_m11a.png) no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: left center;
+}
+
 img {
     width: 100%;
     max-width: 300px;

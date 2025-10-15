@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Typical Device BreakPoints 
+
+pequena: até 599px
+médio: 600px-1023px
+grande: 1024px-1439px
+extra grande : 1440px ou mais
+
+*/
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+
+    body {
+        background-image: linear-gradient(135deg, var(--roxo-escuro), var(--lilas));
+    }
+
+    #login #imagem {
+        float: left;
+    }
+    
+}
