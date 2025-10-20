@@ -11,12 +11,38 @@ extra grande : 1440px ou mais
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
 
-    body {
-        background-image: linear-gradient(135deg, var(--roxo-escuro), var(--lilas));
+body {
+    background: linear-gradient(135deg, var(--roxo-escuro), var(--lilas));
+}
+
+#login {
+        width: 90vw;
+        height: 600px;
+        display: flex;/* usar flexbox */
+        flex-direction: row;
+        align-items: stretch;
+        overflow: hidden;
     }
 
-    #login #imagem {
+    #imagem {
+        background-image: url(../imagens/undraw_shopping_a55o.png);
         float: left;
+        width: 40%;
+        background-position: center center;
+        
     }
-    
+
+    img {
+        display: none;
+        
+    }
+
+    #formulario {
+        float: right;
+        width: 60%;
+    }
+
+    .campo {
+        width: 80%; /* inputs menores e centralizados no formulário */
+    }
 }
