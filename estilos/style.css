@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
 }
 
 /* background: linear-gradient(135deg, var(--roxo-escuro), var(--lilas)); */
@@ -18,7 +18,14 @@
 
 body {
     height: 100vh;
+    width: 100vw;
     background-color: var(--roxo-escuro);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 #login {
@@ -30,7 +37,8 @@ body {
     height: 540px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0px 9px 11px rgba(0, 0, 0, 0.205);;
+    box-shadow: 0px 9px 11px rgba(0, 0, 0, 0.151);;
+    overflow: hidden;
     
 }
 
@@ -43,9 +51,9 @@ body {
 }
 
 #login p {
-    text-align: justify;
+    
     margin: 5px;
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: black;
     margin-bottom: 20px;
 }
@@ -62,8 +70,13 @@ img {
     width: 100%;
     max-width: 300px;
     margin: auto;
-    border-radius: 20px;
     display: block;
+
+}
+
+#formulario {
+    display: block;
+   padding: 5px;
 
 }
 
