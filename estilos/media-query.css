@@ -46,6 +46,15 @@ body {
     }
 }
 
+@media (orientation: landscape) and (max-width: 599px) {
+
+    #login {
+        width: 100vw;
+        height: 80vh;
+    }
+
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
 
     body {
