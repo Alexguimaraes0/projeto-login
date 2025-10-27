@@ -127,7 +127,19 @@ body {
             margin-bottom: 15px;
 
         
-}
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: 85%;
+            margin: auto;
+        }
+
+        .botao {
+            width: 30%;
+            margin: auto;
+        }
+
 
 }
 
