@@ -55,7 +55,7 @@ main {
 
 #imagem {
     display: block;
-    background: #6C1AFF url(../imagens/undraw_secure-login_m11a.png) no-repeat;
+    background: #6C1AFF url(../imagens/undraw_secure-login_m11a.svg) no-repeat;
     background-size: cover;
     border-radius: 20px;
     background-position: left center;
